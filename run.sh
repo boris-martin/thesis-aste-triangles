@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-python generate_mesh
+python generate_mesh.py
 
 vtk_calculator.py -d linear -f "x+y" -m coarse.vtk
 
